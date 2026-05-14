@@ -25,16 +25,16 @@
     "limit",
     "subagent"
   ],
-  "author": "",
+  "author": "feanor5555",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/REPLACE_ME/opencode-session-guard.git"
+    "url": "git+https://github.com/feanor5555/opencode-session-guard.git"
   },
   "bugs": {
-    "url": "https://github.com/REPLACE_ME/opencode-session-guard/issues"
+    "url": "https://github.com/feanor5555/opencode-session-guard/issues"
   },
-  "homepage": "https://github.com/REPLACE_ME/opencode-session-guard#readme",
+  "homepage": "https://github.com/feanor5555/opencode-session-guard#readme",
   "engines": {
     "node": ">=18"
   },
