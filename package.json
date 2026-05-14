@@ -1,0 +1,49 @@
+{
+  "name": "opencode-session-guard",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that enforces hard token thresholds — stops subagents at 70k and prompts the user to start a new session at 80k via system-message injection.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "context",
+    "tokens",
+    "guard",
+    "session",
+    "limit",
+    "subagent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REPLACE_ME/opencode-session-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/REPLACE_ME/opencode-session-guard/issues"
+  },
+  "homepage": "https://github.com/REPLACE_ME/opencode-session-guard#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@opencode-ai/plugin": {
+      "optional": true
+    }
+  }
+}
